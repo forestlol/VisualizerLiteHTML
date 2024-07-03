@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600></canvas>
+      <canvas id="unity-canvas" width=1920 height=1080></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Visualiser Lite 28_06_2024 2138.loader.js";
+      var loaderUrl = buildUrl + "/Visualiser Lite 03_07_2024 2335.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Visualiser Lite 28_06_2024 2138.data.unityweb",
-        frameworkUrl: buildUrl + "/Visualiser Lite 28_06_2024 2138.framework.js.unityweb",
-        codeUrl: buildUrl + "/Visualiser Lite 28_06_2024 2138.wasm.unityweb",
+        dataUrl: buildUrl + "/Visualiser Lite 03_07_2024 2335.data.unityweb",
+        frameworkUrl: buildUrl + "/Visualiser Lite 03_07_2024 2335.framework.js.unityweb",
+        codeUrl: buildUrl + "/Visualiser Lite 03_07_2024 2335.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Visualiser Lite",
@@ -93,8 +93,8 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "960px";
-        canvas.style.height = "600px";
+        canvas.style.width = "1920px";
+        canvas.style.height = "1080px";
       }
 
       loadingBar.style.display = "block";
